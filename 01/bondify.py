@@ -17,3 +17,10 @@ while (i <= len(name) - 1):
 bondify = last + ', ' + first + ' ' + last
 
 print(bondify)
+
+#name ="James Bond"
+#sloc = name.find(" ")
+#first = name[0:sloc]
+#last = name[sloc+1:]
+#intro_string = last = ", " + name
+#print(intro_string)

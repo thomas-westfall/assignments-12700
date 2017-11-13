@@ -35,8 +35,8 @@ def lone_sum(a, b, c):
 
 def string_splosion(str):
   ans = ''
-  for x in range(len(str) + 1):
-     ans += str[0:x]
+  for x in range(len(str)):
+     ans += str[0:x+1]
   return ans
 
 def cigar_party(cigars, is_weekend):

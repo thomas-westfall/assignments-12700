@@ -29,3 +29,22 @@ def full_encode(s):
 
 print(full_encode("yeS"))
     
+
+def distance(l1,l2):
+    length = len(l1)
+    if length>len(l2):
+        length = len(l2)
+
+def build_frequency_vector(s):
+    #count letters in string
+    spaces = s.count(' ')
+    num letters = len(s) = len(s) - spaces
+    v= []
+    for letter in "abcdefghijklmnopqrstuvwxyz":
+        v.append(s.count(letter) / num_letters)
+    return v
+
+def print_vector_table(v):
+    s = "abcdefghijklmnopqrstuvwxyz"
+    for i in range(26):
+        print(s[i] , " : " , v[i])
